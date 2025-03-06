@@ -31,11 +31,6 @@ repo/
 ## 📥 Importação do Dataset
 Os dados estão armazenados na pasta `dataset/`. O caminho do dataset é gerenciado por um arquivo `.env`.
 
-### Criando um arquivo `.env`
-Crie um arquivo `.env` na raiz do projeto e adicione:
-```ini
-DATASET_PATH=C:\Users\F8091169\Desktop\repos\supply-chain-optimization\dataset
-```
 ### Carregando os dados no Python
 ```python
 import pandas as pd
